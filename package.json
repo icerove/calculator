@@ -7,7 +7,7 @@
     "build": "node asconfig.js",
     "dev:deploy:contract": "near dev-deploy",
     "deploy:contract": "near deploy",
-    "deploy": "yarn build && yarn deploy:contract && yarn deploy:pages",
+    "deploy": "yarn build && yarn deploy:contract",
     "prestart": "yarn build && yarn deploy:contract",
     "start": "parcel src/index.html",
     "asp": "asp --verbose",
